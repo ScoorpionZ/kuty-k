@@ -1,0 +1,20 @@
+@charset "utf-8";
+ 
+main, header, footer, article {
+border:1px solid gray;
+padding:5px;
+}
+main {
+    max-width:600px;
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background: lightcoral;
+}
